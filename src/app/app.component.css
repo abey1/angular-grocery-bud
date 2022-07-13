@@ -1,0 +1,22 @@
+.main-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 500px;
+}
+
+h1 {
+  text-transform: capitalize;
+}
+
+.card {
+  width: 100%;
+  text-align: center;
+}
+
+.single-item {
+  width: 100%;
+  padding: 0 20px;
+  border: 1px red solid;
+}

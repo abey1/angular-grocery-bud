@@ -1,0 +1,21 @@
+.form_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed grey;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+}
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.item-input {
+  margin-right: 20px;
+}
+.submit-btn {
+  margin-bottom: 0px;
+}

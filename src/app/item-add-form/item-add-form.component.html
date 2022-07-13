@@ -1,0 +1,17 @@
+<div class="form_container">
+  <div>
+    <mat-form-field appearance="fill" class="item-input">
+      <mat-label>Input</mat-label>
+      <input #itemInput matInput [formControl]="itemText" />
+    </mat-form-field>
+    <button
+      #submitBtn
+      class="submit-btn"
+      mat-raised-button
+      color="primary"
+      (click)="handleAddEditItem()"
+    >
+      Submit
+    </button>
+  </div>
+</div>

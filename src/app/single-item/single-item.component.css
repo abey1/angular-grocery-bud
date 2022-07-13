@@ -1,0 +1,11 @@
+.single-item-holder {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item h3 {
+  margin-top: 10px;
+  text-transform: capitalize;
+}
